@@ -1,7 +1,10 @@
 #! python3
 # hellocomic.py - Downloads every page for a specific comic from hellocomic.com
 
-import requests, os, bs4, urllib.parse
+import os
+import requests
+import bs4
+import urllib.parse
 
 url = 'http://www.hellocomic.com/painkiller-jane-the-22-brides/c2/p1'
 user_agent = 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3'
